@@ -2,7 +2,8 @@ name: Push to another repo
 
 on:
   push:
-    branches: [ main ]
+    branches:
+    - main
 
 jobs:
   build:
